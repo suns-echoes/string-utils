@@ -14,23 +14,25 @@ Usage
 -----
 
 ```js
-// import library distribution (only default export)
-import StringUtils from './libs/string-utils/index.js';
+// CommonJS library distribution file (only default export)
+import exec from '@suns-echoes/string-utils';
+// or
+const exec = require('@suns-echoes/string-utils');
 ```
 
 ```js
 // import library from source (default export)
-import StringUtils from './libs/string-utils/src/index.js';
+import StringUtils from './libs/@suns-echoes/string-utils/src/index.js';
 ```
 
 ```js
 // import library from source (named export)
-import { StringUtils } from './libs/string-utils/src/string-utils.js';
+import { StringUtils } from './libs/@suns-echoes/string-utils/src/string-utils.js';
 ```
 
 ```js
 // import single util from source (only named exports)
-import { overwrite } from './libs/string-utils/src/utils/overwrite.js';
+import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite.js';
 ```
 
 

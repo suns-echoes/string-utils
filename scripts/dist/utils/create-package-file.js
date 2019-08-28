@@ -1,3 +1,5 @@
+const { join } = require('path');
+
 import { readJSONFile } from '@suns-echoes/file-system-utils/src/utils/read-json-file.js';
 import { writeJSONFile } from '@suns-echoes/file-system-utils/src/utils/write-json-file.js';
 
@@ -8,6 +10,8 @@ const whitelist = [
 	'name',
 	'version',
 	'description',
+	'homepage',
+	'repository',
 	'author',
 	'license',
 	'dependencies',
@@ -23,5 +27,5 @@ export async function createPackageFile() {
 		}
 	});
 
-	await writeJSONFile(`${config.paths.dist}/package.json`, pkg, null, '  ');
+	await writeJSONFile(join(config.paths.dist, 'package.json'), pkg, null, '  ');
 }

@@ -1,5 +1,5 @@
-import { insert } from './utils/insert';
-import { overwrite } from './utils/overwrite';
+import { insert } from './utils/insert.js';
+import { overwrite } from './utils/overwrite.js';
 
 
 export const StringUtils = {
