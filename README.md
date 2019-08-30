@@ -39,14 +39,8 @@ import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite.
 Methods
 -------
 
-### Async
-
 * [insert](./docs/utils/insert.md)
 * [overwrite](./docs/utils/overwrite.md)
-
-### Sync
-
-* *None by now, use **async** ;)*
 
 
 License
