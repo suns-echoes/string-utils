@@ -1,9 +1,7 @@
 Insert
 ======
 
-**Insert string**
-
-Inserts new string into original one.
+Method inserts new string into original one on given position.
 
 ```js
 /* string */ StringUtils.insert(

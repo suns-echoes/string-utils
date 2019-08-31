@@ -1,6 +1,6 @@
 /**
- * Insert new string into original string
- * @function insert
+ * Method inserts new string into original one on given position.
+ * @method insert
  * @param {string} string - original string
  * @param {string} insertion - string to insert
  * @param {number} [position=0] - insert at this position

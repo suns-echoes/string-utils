@@ -1,8 +1,8 @@
 /**
- * Overwrite part of the original string with new string
- * @function overwrite
+ * Method inserts new string into original one on given position.
+ * @method overwrite
  * @param {string} string - original string
- * @param {string} insertion - string to insert that will overwrite part of original string
+ * @param {string} insertion - string to insert that will overwrite part of original one
  * @param {number} [position=0] - overwrite from this position
  * @returns {string} - new string
  */

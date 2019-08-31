@@ -1,9 +1,7 @@
 Overwrite
 =========
 
-**Overwrite string**
-
-Overwrite part of the original string with new one.
+Method overwrites part of the original string with new one starting from given position.
 
 ```js
 /* string */ StringUtils.overwrite(
@@ -19,7 +17,7 @@ Arguments
 
 * `<string>` `string` - original string;
 * `<string>` `insertion` - string to insert that will overwrite part of original one;
-* `<number>` `position` - optional, default is 0, overwrite from this position.
+* `<number>` `[position]` - optional, default is 0, overwrite from this position.
 
 
 Returns
