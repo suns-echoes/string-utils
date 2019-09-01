@@ -39,6 +39,7 @@ import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite.
 Methods
 -------
 
+* [count lines](./docs/utils/count-lines.md)
 * [insert](./docs/utils/insert.md)
 * [overwrite](./docs/utils/overwrite.md)
 
