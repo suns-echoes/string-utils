@@ -23,7 +23,7 @@ Arguments
 Returns
 -------
 
-* `string` - new string.
+* `<string>` - new string.
 
 
 Examples
