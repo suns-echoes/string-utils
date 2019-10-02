@@ -19,4 +19,14 @@ describe('StringUtils.countLines', () => {
 
 		expect(countLines(string)).to.be.equal(3);
 	});
+
+	it('throws if argument is not string type', () => {
+		const string = null;
+
+		function fail() {
+			countLines(string);
+		}
+
+		expect(fail).to.throw(TypeError);
+	});
 });
