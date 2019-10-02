@@ -1,4 +1,4 @@
-import { exec } from '@suns-echoes/exec/src/exec.js';
+import { exec } from '@suns-echoes/exec/src/exec';
 
 
 export async function runLinter() {
