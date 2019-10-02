@@ -13,4 +13,14 @@ describe('StringUtils.overwrite', () => {
 		expect(overwrite(string, '+++', -10)).to.be.equal('+++3456789');
 		expect(overwrite(string, '+++', -99)).to.be.equal('+++123456789');
 	});
+
+	it('throws if argument is not string type', () => {
+		const string = null;
+
+		function fail() {
+			overwrite(string);
+		}
+
+		expect(fail).to.throw(TypeError);
+	});
 });

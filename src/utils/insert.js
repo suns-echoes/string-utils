@@ -7,6 +7,10 @@
  * @returns {string} - new string
  */
 export function insert(string, insertion, position = 0) {
+	if (typeof string !== 'string') {
+		throw new TypeError('argument "string" is not type of string');
+	}
+
 	if (position >= 0) {
 		return string.substr(0, position) + insertion + string.substr(position);
 	}

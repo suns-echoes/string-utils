@@ -1,23 +1,23 @@
 /**
  * Method counts lines in given string.
  * @method countLines
- * @param {string} str - string to check
+ * @param {string} string - string to check
  * @returns {number} - lines count
  */
-export function countLines(str) {
-	if (typeof str !== 'string') {
-		throw new TypeError('"str" is not a string');
+export function countLines(string) {
+	if (typeof string !== 'string') {
+		throw new TypeError('argument "string" is not type of string');
 	}
 
-	if (str === '') {
+	if (string === '') {
 		return 0;
 	}
 	else {
-		const { length } = str;
+		const { length } = string;
 		let count = 1;
 
 		for (let i = 0; i < length; i++) {
-			if (str.charAt(i) === '\n') {
+			if (string.charAt(i) === '\n') {
 				count++;
 			}
 		}

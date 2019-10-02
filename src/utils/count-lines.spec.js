@@ -14,7 +14,7 @@ describe('StringUtils.countLines', () => {
 		expect(countLines(string)).to.be.equal(1);
 	});
 
-	it('returns n+1 for each "\n"', () => {
+	it('returns n+1 for each "\\n"', () => {
 		const string = 'line\nline\nline';
 
 		expect(countLines(string)).to.be.equal(3);

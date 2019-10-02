@@ -11,4 +11,14 @@ describe('StringUtils.insert', () => {
 		expect(insert(string, '+++', -3)).to.be.equal('123456+++789');
 		expect(insert(string, '+++', -99)).to.be.equal('+++123456789');
 	});
+
+	it('throws if argument is not string type', () => {
+		const string = null;
+
+		function fail() {
+			insert(string);
+		}
+
+		expect(fail).to.throw(TypeError);
+	});
 });
