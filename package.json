@@ -1,6 +1,6 @@
 {
   "name": "@suns-echoes/string-utils",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "String Utilities Library",
   "scripts": {
     "coverage": "cross-env NODE_ENV=test nyc mocha --config .mocharc.src.json",
