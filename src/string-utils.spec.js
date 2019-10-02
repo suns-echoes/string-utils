@@ -21,7 +21,7 @@ async function findMethods() {
 				if (typeof module[key] === 'function') {
 					methods.push(key);
 				}
-				else {
+				else if (key !== 'default') {
 					throw new Error(`"${entity}" module exports entity "${key}" that is not a function`);
 				}
 			});
