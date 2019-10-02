@@ -10,29 +10,24 @@ Installation
 `npm i @suns-echoes/string-utils`
 
 
-Usage
------
+Import
+------
 
 ```js
-// CommonJS library distribution file (only default export)
-import exec from '@suns-echoes/string-utils';
+// Import library distribution file
+import { StringUtils } from '@suns-echoes/string-utils';
+```
+
+```js
+// import library from source
+import { StringUtils } from './libs/@suns-echoes/string-utils/src/';
 // or
-const exec = require('@suns-echoes/string-utils');
+import { StringUtils } from './libs/@suns-echoes/string-utils/src/string-utils';
 ```
 
 ```js
-// import library from source (default export)
-import StringUtils from './libs/@suns-echoes/string-utils/src/index.js';
-```
-
-```js
-// import library from source (named export)
-import { StringUtils } from './libs/@suns-echoes/string-utils/src/string-utils.js';
-```
-
-```js
-// import single util from source (only named exports)
-import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite.js';
+// Import single util from source
+import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite';
 ```
 
 

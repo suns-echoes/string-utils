@@ -3,25 +3,23 @@ Insert
 
 Method inserts new string into original one on given position.
 
+
+Usage
+-----
+
 ```js
-/* string */ StringUtils.insert(
-	/* string */ string,
-	/* string */ insertion,
-	/* number */ [position=0]
-)
+const newString = StringUtils.insert(string, insertion, position);
 ```
 
 
-Arguments
----------
+### Arguments
 
 * `<string>` `string` - original string;
 * `<string>` `insertion` - string to insert;
 * `<number>` `[position]` - optional, default is 0, insert at this position.
 
 
-Returns
--------
+### Returns
 
 * `<string>` - new string.
 

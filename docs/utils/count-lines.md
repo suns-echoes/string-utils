@@ -3,21 +3,21 @@ Count Lines
 
 Method counts lines in given string.
 
+
+Usage
+-----
+
 ```js
-/* string */ StringUtils.countLines(
-	/* number */ str
-)
+const lineCount = StringUtils.countLines(string);
 ```
 
 
-Arguments
----------
+### Arguments
 
 * `<string>` `str` - string to check.
 
 
-Returns
--------
+### Returns
 
 * `<number>` - lines count.
 

@@ -3,25 +3,23 @@ Overwrite
 
 Method overwrites part of the original string with new one starting from given position.
 
+
+Usage
+-----
+
 ```js
-/* string */ StringUtils.overwrite(
-	/* string */ string,
-	/* string */ insertion,
-	/* number */ [position=0]
-)
+const newString = StringUtils.overwrite(string, insertion, position);
 ```
 
 
-Arguments
----------
+### Arguments
 
 * `<string>` `string` - original string;
 * `<string>` `insertion` - string to insert that will overwrite part of original one;
 * `<number>` `[position]` - optional, default is 0, overwrite from this position.
 
 
-Returns
--------
+### Returns
 
 * `<string>` - new string.
 
