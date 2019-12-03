@@ -20,14 +20,14 @@ import { StringUtils } from '@suns-echoes/string-utils';
 
 ```js
 // import library from source
-import { StringUtils } from './libs/@suns-echoes/string-utils/src/';
+import { StringUtils } from '@suns-echoes/string-utils/src/';
 // or
-import { StringUtils } from './libs/@suns-echoes/string-utils/src/string-utils';
+import { StringUtils } from '@suns-echoes/string-utils/src/string-utils';
 ```
 
 ```js
 // Import single util from source
-import { overwrite } from './libs/@suns-echoes/string-utils/src/utils/overwrite';
+import { overwrite } from '@suns-echoes/string-utils/src/utils/overwrite';
 ```
 
 
