@@ -14,7 +14,7 @@ const lineCount = StringUtils.countLines(string);
 
 ### Arguments
 
-* `<string>` `str` - string to check.
+* `<string>` `string` - string to check.
 
 
 ### Returns

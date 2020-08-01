@@ -16,7 +16,7 @@ const newString = StringUtils.insert(string, insertion, position);
 
 * `<string>` `string` - original string;
 * `<string>` `insertion` - string to insert;
-* `<number>` `[position]` - optional, default is 0, insert at this position.
+* `<number>` `[position]` - optional, default is `0`; insert at this position.
 
 
 ### Returns

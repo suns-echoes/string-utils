@@ -16,7 +16,7 @@ const newString = StringUtils.overwrite(string, insertion, position);
 
 * `<string>` `string` - original string;
 * `<string>` `insertion` - string to insert that will overwrite part of original one;
-* `<number>` `[position]` - optional, default is 0, overwrite from this position.
+* `<number>` `[position]` - optional, default is `0`; overwrite from this position.
 
 
 ### Returns

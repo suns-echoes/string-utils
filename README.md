@@ -37,6 +37,8 @@ Methods
 * [count lines](./docs/utils/count-lines.md)
 * [insert](./docs/utils/insert.md)
 * [overwrite](./docs/utils/overwrite.md)
+* [to camel case](./docs/utils/to-camel-case.md)
+* [to dash case](./docs/utils/to-dash-case.md)
 
 
 License
